@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h2>Custom HLS Live Streaming App</h2>
-      <Routes>
+      <Routes >
       <Route path="/" element={<StreamList />} />
         <Route path="/stream/:slug" element={<VideoPlayer />} />
         <Route path="/wsstream/:slug" element={<MjpegViewer />} />
