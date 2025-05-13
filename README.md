@@ -39,8 +39,6 @@ Local Setup Instructions:
 Environment Configuration:
 ---------------------------
 - Ensure the backend is running on: http://127.0.0.1:8080
-- You may create a `.env` file and set:
-   VITE_API_BASE_URL=http://127.0.0.1:8080/api/
 
 Folder Structure:
 ------------------
